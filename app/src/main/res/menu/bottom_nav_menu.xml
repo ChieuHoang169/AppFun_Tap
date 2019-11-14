@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+     <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionProviderClass="android.widget.ShareActionProvider"
+        />
+
+     <item
+        android:id="@+id/navigation_folders"
+        android:icon="@drawable/folder_icon"
+        android:title="@string/folders" />
+
+    <item
+        android:id="@+id/navigation_notes"
+        android:icon="@drawable/notes_icon"
+        android:title="@string/notes" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:icon="@drawable/icons8_add"
+        android:iconTint="@color/button_add"
+        android:title="" />
+    <item
+        android:id="@+id/navigation_todo"
+        android:icon="@drawable/path_85"
+        android:title="@string/todo" />
+    <item
+        android:id="@+id/navigation_calendar"
+        android:icon="@drawable/union_1"
+        android:title="@string/calendar" />
+
+
+
+</menu>
